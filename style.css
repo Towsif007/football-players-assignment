@@ -26,10 +26,10 @@ body {
     margin-top: 60px;
     margin-bottom: 20px;
 
-    
+
 }
 
-.watch-live{
+.watch-live {
     width: 168px;
     height: 44px;
     text-decoration: none;
@@ -44,10 +44,11 @@ body {
     padding-bottom: 10px;
 }
 
-a:hover{
+a:hover {
     background-color: blue;
 }
-.arrow{
+
+.arrow {
     padding: 5px;
 }
 
@@ -57,108 +58,129 @@ a:hover{
     margin-top: 130px;
     margin-left: 50px;
     margin-bottom: 86px;
-  
+
 
 }
-    /*-------------------
+
+/*-------------------
      all players style 
      --------------------*/
- .all-players{
+.all-players {
     margin-top: 70px;
     margin-left: 165px;
-    margin-right: 210px ;
+    margin-right: 210px;
 
- }
- .football-players{
+}
+
+.football-players {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
 
-      
- }
- .player img{
-     width: 300px;
-     height: 256px;
-     padding: 15px;    
- }
- .player h2{
+
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+
+.player h2 {
     padding-right: 10px;
     padding-left: 10px;
- }
- .player{ 
-    margin: 10px;  
-    box-shadow: 10px 10px 10px whitesmoke; 
- } 
- /* youtube video section */
-.youtube-video{ 
+}
+
+.player {
+    margin: 10px;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+
+/* youtube video section */
+.youtube-video {
     margin-left: 500px;
 }
+
 /* audio section style */
-.audio-song{
-    
+.audio-song {
+
     margin-top: 50px;
     margin-left: 600px;
     margin-bottom: 50px;
 }
 
 
- /* --------------------
+/* --------------------
  footer section    
  ---------------------*/
- .logo img{
+.logo img {
     width: 483.87px;
     height: 113px;
-    
 
- }
- .logo{
+
+}
+
+.logo {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
- }
- .social{
-     padding: 5px;
+}
 
- }
- p{
-     margin-bottom: 50px;
- }
+.social {
+    padding: 5px;
 
- /* Media Queries */
- @media only screen and (max-width:688px) {
-     body{
-         width: 100%;
-         display: grid;
-         margin: 0;
-         
-     }
-     .conmebol-headline{
-         width: 100%;
-         height: 100%;
-         flex-direction: column;
-         align-items: center;
-     }
-     .kick-football img{
-         width: 50%;
-        
-     }
-     .all-players{
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+/* Media Queries */
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+        display: grid;
         margin: 0;
-     }
-     .football-players{
-        grid-template-columns: repeat(1, 1fr);   
-     }
-     .youtube-video {
-         margin: 0;
-     }
-     .audio-song{
-         margin: 0;
-         margin-top: 30px;
-     }
-     .logo{
-        align-items: flex-start; 
-     }
-    
- }
+
+    }
+
+    .conmebol-headline {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-items:center;
+
+    }
+
+    .kick-football img {
+        width: 50%;
+
+    }
+
+    .all-players {
+        width: 100%;
+
+    }
+
+    .football-players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .youtube-video {
+        margin: 0;
+
+    }
+
+    .audio-song {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .logo {
+        align-items: flex-start;
+    }
+
+}
