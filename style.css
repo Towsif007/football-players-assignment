@@ -155,17 +155,20 @@ p {
 
     .copa {
         margin: 0;
+        text-align:left;
+        font-size: 40px;
+        
     }
 
     .kick-football img {
         width: 80%;
+        margin: 0;
 
     }
 
     .all-players {
         width: 100%;
         margin: 0;
-
     }
 
     .football-players {
